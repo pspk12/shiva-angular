@@ -20,6 +20,8 @@ import { DOCUMENT } from '@angular/common';
 })
 export class FunctionhallpageComponent implements OnInit {
 
+  dateOfBirth: string;
+
   temp;
   data = [];
   searchParam: any;

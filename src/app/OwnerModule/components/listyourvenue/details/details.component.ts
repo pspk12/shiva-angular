@@ -70,8 +70,8 @@ export class DetailsComponent implements OnInit {
     this.OwnerDetails = {
 
       name: this.DetailsForm.get('name').value,
-      firstname: this.DetailsForm.get('firstname').value,
-      lastname: this.DetailsForm.get('lastname').value,
+      // firstname: this.DetailsForm.get('firstname').value,
+      // lastname: this.DetailsForm.get('lastname').value,
       functionhalldescription: this.DetailsForm.get('functionhalldescription').value,
       functionhalltype: this.DetailsForm.get('functionhalltype').value,
       maximumguest: this.DetailsForm.get('maximumguest').value,
