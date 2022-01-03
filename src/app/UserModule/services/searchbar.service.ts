@@ -14,7 +14,7 @@ export class SearchbarService {
   constructor(private http: HttpClient) { }
   getAllFunctionHalls():Observable<any>
   {
-    return this.http.get('http://vedikaload-972979603.us-east-1.elb.amazonaws.com/api/functionhalls/');
+    return this.http://13.250.99.168:8057/api/functionhalls/');
   }
   
   findFunctionhallByNameAndCity(city):Observable<any>
