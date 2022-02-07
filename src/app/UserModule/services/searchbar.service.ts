@@ -19,7 +19,7 @@ export class SearchbarService {
   
   findFunctionhallByNameAndCity(city):Observable<any>
   {
-    return this.http.get('http://vedikaload-972979603.us-east-1.elb.amazonaws.com/api/functionhallsBy/?city='+city);
+    return this.http.get('http://13.233.231.174/api/functionhallsBy/?city='+city);
   }
  
 }
